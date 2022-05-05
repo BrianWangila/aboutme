@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: rgb(166, 120, 209);
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo { /* or nav > .logo > h3*/
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+}
+.menu {
+  margin: 15px;
+  
+}
+nav > .menu > ul > li {
+  display: inline-block; 
+  padding: 10px;
+  color: white;
+}
+nav >.menu > ul > li > .submit {
+
+}
+#sectHeader {
+  opacity: 0.7;
+  background-image: url("../images/comp-setup.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sectHeader .header {
+  text-align: center;
+}
+#sectHeader > .header > h3 {
+  font-size: 50px;
+}
+#sectHeader >.header > h3, .header p {   /*styles h3 and p in the .header same*/
+  color:white;
+}
+#sectAboutMe {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#sectAboutMe >.aboutme {
+display: flex;
+background-color: bisque;
+margin: 5px;
+}
+#sectAboutMe > .aboutme > .leftside, .rightside {
+  width: 50%;
+
+}
+#sectAboutMe >.aboutme >.leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectAboutMe >.aboutme >.rightside {
+  background-color: rgb(185, 185, 194);
+  padding: 10px;
+  color: rgb(33, 13, 80);
+}
+#dog {
+  width: 500px;
+  height: 300px;
+}
+button {
+  background-color: brown;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
